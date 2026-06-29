@@ -26,7 +26,7 @@ and demonstrates practical SQL skills through 15 business-oriented queries cover
 
 The following diagram illustrates the relationships between the tables in the Mobile Money database:
 
-![ERD Mobile Money](docs/erd_mobile_money.png)
+![ERD Mobile Money](docs/erd_mobile_money.jpg)
 
 ### Legend
 - **Straight arrow**: mandatory relationship (foreign key NOT NULL).
@@ -116,7 +116,7 @@ psql -d mobile_money_db -f queries/03_business_queries.sql
 ```
 mobile_money_sql/
 ├── docs/
-│   └── erd_mobile_money.png     
+│   └── erd_mobile_money.jpg    
 ├── schema/
 │   └── 01_create_tables.sql     # DDL: tables, constraints, indexes
 ├── data/
