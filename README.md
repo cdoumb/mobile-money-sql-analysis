@@ -115,6 +115,8 @@ psql -d mobile_money_db -f queries/03_business_queries.sql
 
 ```
 mobile_money_sql/
+├── docs/
+│   └── erd_mobile_money.png     
 ├── schema/
 │   └── 01_create_tables.sql     # DDL: tables, constraints, indexes
 ├── data/
