@@ -22,12 +22,16 @@ and demonstrates practical SQL skills through 15 business-oriented queries cover
 
 5 relational tables:
 
-```
-clients ──────────────────────────── transactions ──── fraud_alerts
-                                          │
-merchants ────────────────────────────────┘
-                                          │
-transaction_types ────────────────────────┘
+## Entity-Relationship Diagram (ERD)
+
+The following diagram illustrates the relationships between the tables in the Mobile Money database:
+
+![ERD Mobile Money](docs/erd_mobile_money.png)
+
+### Legend
+- **Straight arrow**: mandatory relationship (foreign key NOT NULL).
+- **Arrow with circle**: optional relationship (foreign key can be NULL).
+
 ```
 
 | Table               | Description                                      |
